@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h3>Array of objects</h3>
+    <script>
+        var data = [
+            { fname: "Rahul", age: 22 },
+            { fname: "Sagar", age: 32 },
+            { fname: "Mahesh", age: 42 },
+
+        ];
+        console.log(data);
+
+        for (var a = 0; a < data.length; a++) {
+
+            document.write(data[a].fname + " " + data[a].age + "<br>");
+        }
+
+        document.write("<br><br>constant var can be changed by below in array and objects");
+
+        const info = [2, 3, 22];
+        info[2] = [22];//constant var can be changed with this
+        document.write("<br><br>" + info[2]);
+        const dict = {
+            name: "sushank",
+            age: 23
+
+        }
+
+        document.write("<br><br>" + dict.name);
+        dict.name = "Mahesh";//constant var can be changed with this
+        document.write("<br><br>" + dict.name);
+        console.log(info);
+
+
+
+
+    </script>
+</body>
+
+</html>

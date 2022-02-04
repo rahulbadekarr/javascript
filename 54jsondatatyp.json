@@ -1,0 +1,25 @@
+{
+    "name":"monica",
+    "rollno":21,
+    "working":true,
+    "movie":["Dil","DDLJ","Dhoom"],
+    "address":{
+
+        "city":"Dehuroad",
+        "pin":412101,
+        "date":"12/19/2020",
+        "dob":null
+
+    },
+
+    "company":[
+        {
+            "fcompany":"Infosys",
+            "locaton":"Hinj Phase1"
+        },
+        {
+            "fcompany":"TCS",
+            "locaton":"Hinj Phase3"
+        }
+    ]
+}

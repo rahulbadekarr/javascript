@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested array ,access</title>
+</head>
+
+<body>
+    <div id="dat"></div>
+
+
+    <script>
+        var i, k, j, x;
+
+        var data = {
+            "id": "121",
+            "details": [
+                { "name": "Basic", "course": ["sql", "unix", "shell", "html"] },
+                { "name": "Advance", "course": ["java", "css", "javascript", "pythn"] }
+
+
+            ]
+        };
+
+        for (i in data.details) {
+            x += "<h1>" + data.details[i].name + "<br>" + "</h1> ";
+            for (j in data.details[i].course) {
+
+                x += data.details[i].course[j] + "<br>";
+
+            }
+
+
+        }
+        document.getElementById("dat").innerHTML = x + "<br>";
+
+
+
+
+    </script>
+
+</body>
+
+</html>

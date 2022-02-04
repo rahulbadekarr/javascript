@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h3>Array method continue..</h3>
+    <script>
+        var a = ["Tom", "Dick", "Harry", "Johnson","Archer","Johnson"];
+        document.write(a+"<br><br>");
+
+        var b=a.slice(1,3);//slice(starting index,endindex)
+        document.write(b+"<br><br>");
+
+        a.splice(1,0,"KV","kJal");// it will change in existing array , you can't assing var b= a.splice  splice(startingnum,deletecount,"names")
+        document.write(a+"<br><br>");
+
+        var arrcheck=Array.isArray(a);
+        document.write(arrcheck+"<br>");
+        document.write(typeof(a));
+        document.write("<br><br>");        
+        document.write(typeof(arrcheck));
+        document.write("<br><br>");
+
+        var d=a.indexOf("Johnson");
+        var d=a.indexOf("Johnson",6);// starting element,starting index
+        var last=a.lastIndexOf("Harry");//it will search in reverse order
+        document.write("<br><br>");
+        document.write(last+"<br><br>");
+        document.write(d+"<br><br>");
+        
+        var inclu=a.includes("Harry");//this give true/fase
+        document.write(inclu+"<br><br>");
+
+    </script>
+
+
+</body>
+
+</html>
