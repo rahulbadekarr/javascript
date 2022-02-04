@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome</title>
+    <link rel="stylesheet" href="/first.css" />
+    <style></style>
+  </head>
+  <body>
+    <div id="sticky">Welcome</div>
+    <div id="fixed">Position:fixed</div>
+    <div id="a">
+      <a href="https://www.google.com">Google</a><br />
+      <img
+        src="abc.jpg"
+        alt="abc"
+        height="500"
+        width="500"
+        style="border: 2px solid red"
+      />
+
+      <p style="color: rgb(255, 127, 238)">HI</p>
+      <br />
+
+      <br />
+      <p>This is 15<sub>10</sub> and 10 <sup>20</sup></p>
+
+      Hello!!
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Id</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Raj</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>saRaj</td>
+          <td>2</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <ul style="list-style-type: disc">
+      <li>A</li>
+      <li>A</li>
+    </ul>
+
+    <ol type="A">
+      <li>1</li>
+      <li>1</li>
+    </ol>
+    <iframe src="https://www.google.com" frameborder="0">Goggle</iframe>
+
+    <p>hi <kbd>Ctrl+g</kbd></p>
+
+    <code> x = 5; y = 6; z = x + y; </code>
+
+    <form action="">
+      <label for="name">Name: </label><br />
+      <input type="text" id="name" /><br />
+      <label for="lname">LName: </label><br />
+      <input type="text" id="lname" />
+
+      <br />
+      <textarea name="description" id="" cols="30" rows="10"> </textarea>
+      <br />
+
+      <input list="text" />
+      <datalist id="text">
+        <option value="A"></option>
+        <option value="A"></option>
+        <option value="A"></option>
+      </datalist>
+
+      <!-- ============================= -->
+      <br /><br />
+      <h1>hi</h1>
+      <svg>
+        <circle
+          cx="50"
+          cy="50"
+          r="40"
+          stroke="red"
+          stroke-width="3"
+          fill="green"
+        />
+      </svg>
+      <!-- ================================ -->
+      <video controls>
+        <source src="abc.mp4" type="mp4" />
+      </video>
+
+      <audio controls>
+        <source src="abc.mp3" type="mp3" />
+      </audio>
+    </form>
+
+    <!-- <iframe width="420" height="315" src="https://www.google.com/"> </iframe> -->
+
+    <h1 id="local"></h1>
+    <br />
+    <br />
+    <img src="bike.jfif" alt="" />
+    <br />
+
+    <div id="boxmodel">Box Model</div>
+
+    <div id="box1">A</div>
+    <div id="box2">B</div>
+    <br /><br />
+    <a href="https://www.abc.com">Google</a><br /><br />
+    <h3 id="margin">margin:auto</h3>
+
+    <div class="box" id="box3">3</div>
+    <div class="box" id="box4">4</div>
+    <div class="box">5</div>
+    <div class="box">6</div>
+
+    <!-- ====================Float -->
+    <br /><br /><br /><br /><br /><br />
+    <div class="floata">AFloat</div>
+    <div class="floatb">
+      BFloat Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+      Reiciendis, sit. Ipsum vel quo dolorem error voluptatum sequi officia ipsa
+      iure incidunt pariatur dignissimos similique saepe molestias ea, possimus
+      laboriosam quasi nesciunt omnis recusandae dolorum repellat sint. Ipsa
+      quae dignissimos necessitatibus eaque quibusdam, omnis obcaecati?
+    </div>
+
+    <!-- Combinators -->
+
+    <div class="combinators">
+      <p>hi</p>
+      <p>hi</p>
+      <p>hi</p>
+      <p>hi</p>
+    </div>
+
+    <div class="pluscombi">
+      <p>hello</p>
+    </div>
+    <p>hellow pluscombi</p>
+
+    <!-- <div class="desk" id="n1">BOTTLE</div>
+    <div class="desk" id="n2">TPLINK</div>
+    <div class="desk" id="n3">table</div>
+    <div class="desk" id="n4">charger</div> -->
+    <br /><br />
+
+    <div class="main">
+      <div class="desks">BOTTLE</div>
+      <div class="desks">TPLINK</div>
+      <div class="desks">table</div>
+      <div class="desks">charger</div>
+      <div class="desks">BOTTLE</div>
+      <div class="desks">TPLINK</div>
+      <div class="desks">table</div>
+      <div class="desks">charger</div>
+      <div class="desks">BOTTLE</div>
+      <div class="desks">TPLINK</div>
+      <div class="desks">table</div>
+      <div class="desks">charger</div>
+    </div>
+
+    <br /><br />
+    <!-- Display:grid -->
+    <div class="gridmain">
+      <div class="grid">A</div>
+      <div class="grid">A</div>
+      <div class="grid">A</div>
+      <div class="grid">A</div>
+      <div class="grid">A</div>
+      <div class="grid">A</div>
+      <div class="grid">A</div>
+    </div>
+    <script>
+      localStorage.setItem("name", "rahul");
+      var g = localStorage.getItem("name");
+      console.log(g);
+      document.getElementById("local").innerHTML = g;
+    </script>
+  </body>
+</html>

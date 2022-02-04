@@ -1,0 +1,9 @@
+li{
+    margin: 20px;
+    padding: 20px;
+    background-color: yellow;
+
+    &:hover{
+        background-color: green;
+    }
+}

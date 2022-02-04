@@ -1,0 +1,12 @@
+.abc{
+    margin-left:ceil(3.3);
+    margin-right: floor(3.3);
+    margin-top:max(10px,20px,30px);
+    margin-bottom: percentage(250/500 );
+
+}
+
+.xyx{
+    margin-left:comparable(10px,20em );
+    margin-right: random(33);
+}

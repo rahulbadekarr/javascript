@@ -1,0 +1,12 @@
+div {
+  border: 2px solid red;
+}
+
+.a {
+  background-color: green;
+}
+.a:hover {
+  background-color: #b3ffb3;
+}
+
+/*# sourceMappingURL=7colors.css.map */

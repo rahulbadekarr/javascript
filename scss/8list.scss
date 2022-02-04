@@ -1,0 +1,20 @@
+$list:10px,20px,30px;
+$list2:40px,50px,60px;
+
+.abc{
+    // margin-top: length($list);
+    // padding: nth($list, 3 );
+    // padding: join($list, $list2 );
+    padding: index($list,30) ;
+
+}
+
+/////////////////////////////////////map//////////// 
+
+$mapdata:("low":20px,"normal":30px,"high":40px);
+
+.kbc{
+    padding: map-get($mapdata, "high" );
+    padding: map-keys($mapdata);
+    
+}

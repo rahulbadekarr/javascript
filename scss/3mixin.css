@@ -1,0 +1,20 @@
+#first {
+  border: 10px solid red;
+  background-color: red;
+}
+
+#sec {
+  border: 5px solid red;
+  background-color: green;
+}
+
+#third {
+  border: 2px solid red;
+  background-color: blue;
+}
+
+div {
+  margin: 20px;
+}
+
+/*# sourceMappingURL=3mixin.css.map */

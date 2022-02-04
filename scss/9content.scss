@@ -1,0 +1,18 @@
+@mixin bd-r($value){
+    border-radius: $value;
+    border: 2px solid red;
+    @content;
+}
+
+.abc{
+    @include bd-r(20px);
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.kbc{
+    @include bd-r(33px){
+    // padding: 120px;
+    border-style: dotted;
+    }
+}

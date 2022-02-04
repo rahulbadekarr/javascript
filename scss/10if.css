@@ -1,0 +1,55 @@
+p {
+  color: blue;
+}
+
+.list-1 {
+  width: 100px;
+  background-color: #ff8da1;
+  margin: 5px;
+}
+
+.list-2 {
+  width: 200px;
+  background-color: #ff5a77;
+  margin: 10px;
+}
+
+.list-3 {
+  width: 300px;
+  background-color: #ff274d;
+  margin: 15px;
+}
+
+.normal {
+  font-weight: normal;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-weight: italic;
+}
+
+.pad-10 {
+  padding-left: 100;
+}
+
+.pad-20 {
+  padding-left: 200;
+}
+
+.pad-30 {
+  padding-left: 300;
+}
+
+.pad-40 {
+  padding-left: 400;
+}
+
+.pad-50 {
+  padding-left: 500;
+}
+
+/*# sourceMappingURL=10if.css.map */

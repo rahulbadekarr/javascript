@@ -1,0 +1,21 @@
+
+$my-width:1000;
+
+@function myhalf($width){
+    @return $width /2 + px;
+}
+
+.half{
+    width: myhalf($my-width);
+}
+
+/////////
+
+@function myonethird($width){
+    @return $width /4 + px;
+}
+
+.third{
+    width: myonethird($my-width);
+}
+

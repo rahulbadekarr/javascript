@@ -1,0 +1,39 @@
+$testvar: 5;
+
+p {
+  @if $testvar>13 {
+    color: green;
+  } @else if $testvar==5 {
+    color: blue;
+  } @else {
+    color: red;
+  }
+}
+
+@for $test from 1 through 3 {
+  .list-#{$test} {
+    width: 100px * $test;
+    background-color: darken(pink, $test*10%);
+    margin: 5px*$test;
+  }
+}
+
+//////each loop/////////
+
+@each $var in (normal,bold,italic) {
+ .#{$var}{
+     font-weight: $var;
+ }   
+}
+
+////////while loop
+
+$whilevar:10;
+
+@while $whilevar<=50 {
+    .pad-#{$whilevar}{
+        padding-left: 10*$whilevar;
+    }
+    $whilevar:$whilevar+10;
+}
+

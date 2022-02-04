@@ -1,0 +1,27 @@
+@mixin borderradius($value) {
+  border: $value solid red;
+}
+
+@mixin backgrouncolor($value) {
+   background-color: $value
+  }
+  
+
+  #first {
+    @include borderradius(10px);
+    @include backgrouncolor(red);
+  }
+
+  #sec{
+    @include borderradius(5px);
+    @include backgrouncolor(green);
+  }
+
+  #third{
+    @include borderradius(2px);
+    @include backgrouncolor(blue);
+  }
+
+  div{
+      margin: 20px;
+  }

@@ -1,0 +1,22 @@
+
+
+$redColor:yellow;
+
+ul{
+    display: flex;
+    
+}
+
+li{
+    margin: 20px;
+    padding: 20px;
+    text-decoration: none;
+}
+
+li:hover{
+    background-color: $redColor;
+}
+#paraone{
+    background-color: $redColor;
+}
+

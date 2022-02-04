@@ -1,0 +1,15 @@
+div{
+    border:2px solid red;
+
+}
+
+.a{
+    background-color: green;
+
+    &:hover{
+        background-color: lighten(green, 60); //darken() function is also there
+
+    }
+
+    
+}

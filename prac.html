@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CTzen</title>
+    <!-- 1) code in body{} 2)footer{ marginauto}  to make footer in bottom-->
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+
+      body {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+      }
+
+      #headid {
+        border: 2px solid black;
+        text-align: center;
+      }
+
+      ul {
+        display: flex;
+        text-decoration: none;
+        background-color: aquamarine;
+      }
+
+      li {
+        padding: 20px;
+      }
+
+      #sign {
+        position: absolute;
+        right: 10px;
+      }
+
+      section {
+        width: 40%;
+        border: 2px solid black;
+        margin: 5px;
+      }
+
+      article {
+        width: 60%;
+        border: 2px solid black;
+        margin: 10px;
+      }
+      .main {
+        display: flex;
+        min-height: calc(100vh- 58px- 32px- 18px);
+      }
+
+      footer {
+        border: 2px solid red;
+        background-color: rgb(122, 117, 126);
+        text-align: center;
+
+        margin-top: auto;
+      }
+
+      @media (max-width: 600px) {
+        ul {
+          background-color: red;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h2 id="headid">Welcome to CTzen!!</h2>
+    </header>
+    <nav>
+      <ul style="list-style-type: none">
+        <li>Home</li>
+        <li>Login</li>
+        <li>Register</li>
+        <li id="sign">Signout</li>
+      </ul>
+    </nav>
+    <div class="main">
+      <section>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. A, inventore
+          culpa.
+        </p>
+
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores
+          tenetur tempore reprehenderit sunt aspernatur maiores deleniti neque!
+          Eaque tempora sequi consequuntur voluptatum praesentium, pariatur fuga
+          suscipit at assumenda aut fugit temporibus provident. Consequatur.
+        </p>
+      </section>
+      <article>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit,
+          architecto eius?
+        </p>
+      </article>
+    </div>
+    <!-- <p id="padding"></p> -->
+    <footer>
+      <p>copyrights reserved!!!2022</p>
+    </footer>
+  </body>
+</html>

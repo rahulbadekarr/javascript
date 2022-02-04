@@ -1,0 +1,18 @@
+#first, #third, #sec {
+  color: yellow;
+  border: 2px solid red;
+  margin: 20px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+#sec {
+  color: green;
+  margin-left: 150px;
+}
+
+#third {
+  color: red;
+}
+
+/*# sourceMappingURL=4extend.css.map */

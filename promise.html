@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //   let prom = new Promise((resolve, reject) => {
+      //     setTimeout(() => {
+      //       let a = 1 + 1;
+      //       if (a == 2) {
+      //         resolve("success");
+      //       } else {
+      //         reject("failed");
+      //       }
+      //     }, 5000);
+      //   });
+
+      //   prom
+        //   .then((res) => {
+        //     console.log(res);
+        //   })
+        //   .catch((err) => {
+        //     console.log(err);
+        //   });
+
+      function myPromise() {
+        return new Promise((resolve, reject) => {
+          setTimeout(() => {
+            let a = 1 + 1;
+            if (a == 2) {
+              resolve("success");
+            } else {
+              reject("failed");
+            }
+          }, 5000);
+        });
+      }
+
+      myPromise().then((res) => {
+            console.log(res);
+          })
+          .catch((err) => {
+            console.log(err);
+          });
+    </script>
+  </body>
+</html>

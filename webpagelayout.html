@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+
+     
+
+      ul {
+        display: flex;
+      }
+      li {
+        padding: 20px;
+      }
+
+      nav {
+        height: 65px;
+        border: 2px solid red;
+      }
+
+      p {
+        border: 2px solid green;
+        width: 50%;
+        float: left;
+        height: 300px;
+      }
+
+      #about {
+        margin-left: 900px;
+        border: 2px solid red;
+        border-radius: 50%;
+      }
+
+      /* To make footer at bottom below code */
+      body {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+      }
+
+      .footer {
+        margin-top: auto;
+       
+      }
+
+      p#foot {
+        border: 2px solid red;
+        height: 30px;
+        display: block;
+        width: 100%;
+        text-align: center;
+      }
+
+      /* End Footer */
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>Welcome to CTZEN!!</h1>
+    </header>
+    <nav>
+     
+      <ul style="list-style-type: none">
+        <li>Home</li>
+        <li>Register</li>
+        <li>Login</li>
+        <li id="about">About Us</li>
+      </ul>
+     
+    </nav>
+
+    <section>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci,
+        ullam eveniet?
+      </p>
+
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci,
+        ullam eveniet?
+      </p>
+    </section>
+
+
+     <!-- /* To make footer at bottom below code */ -->
+     
+    <footer class="footer">
+      <p id="foot">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+    </footer>
+
+    <!-- /* End Footer */ -->
+  </body>
+</html>
