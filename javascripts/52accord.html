@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+</head>
+<style>
+
+</style>
+<body>
+
+    <div id="accordion">
+        <h3>Section 1</h3>
+        <div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, eius illum. Vero nemo natus laudantium esse ratione, cumque dolores culpa.</p>
+        </div>
+        <h3>Section 2</h3>
+        <div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, eius illum. Vero nemo natus laudantium esse ratione, cumque dolores culpa.</p>
+        </div>
+        <h3>Section 3</h3>
+        <div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, eius illum. Vero nemo natus laudantium esse ratione, cumque dolores culpa.</p>
+        </div>
+        <h3>Section 4</h3>
+        <div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, eius illum. Vero nemo natus laudantium esse ratione, cumque dolores culpa.</p>
+        </div>
+
+    </div>
+
+    <br><br>
+    <input type="text" id="date" placeholder="date">    <br><br>
+    <div id="dialog" title="Basic dialog">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit, eius illum. Vero nemo natus laudantium esse ratione, cumque dolores culpa.</p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        $("#accordion").accordion();
+        $("#date").datepicker();
+        $( "#dialog" ).dialog();
+        
+    </script>
+</body>
+</html>

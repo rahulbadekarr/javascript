@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>tostring,fill methods</h3>
+    <script>
+        var a=["Sudhir","Mohit","Sohan","Raj"];
+        document.write(a+"<br>");
+        var b=typeof(a);
+        document.write(b+"<br>");
+        
+        a.toString();
+
+        document.write(a);
+        var c=typeof(a);
+        document.write(c+"<br>");
+
+        document.write("ForEach Loop"+"<br>");
+        document.write("<br>");
+
+        a.forEach(loopdemo);
+
+        function loopdemo(value,index){
+            document.write(index+ " : "+value+"<br>");
+        };
+        
+
+
+
+    </script>
+    
+</body>
+</html>

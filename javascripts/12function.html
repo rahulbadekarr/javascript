@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Function</h3>
+    <script>
+        document.write("Normal Function without parameters "+"<br>");
+
+        function happy(){
+            document.write("This is a printing of Happy world function..")
+            document.write("<br>");
+            document.write("<br>");
+        }
+
+        //happy();
+        
+    document.write("Function with parameters "+"<br>");
+
+    function register(fname="default",lname="default"){
+        document.write("Name is: "+fname+" "+lname+"<br>");
+    }
+
+    //register("raj","Md");
+    //register();
+
+    document.write("Function with return "+"<br>");
+    document.write("Calculating % "+"<br>");
+    
+    function sumAll(eng,hin,mar){
+        var s=eng+hin+mar;
+        return s;
+    }
+
+    var total=sumAll(44,48,23);
+    document.write("Total is "+total+"<br>");
+
+    
+
+    function perCentage(tot){
+        var t=tot/300 * 100;
+       //document.write("Percentage is"+t);
+        return t;
+    }
+  
+    var Cal=perCentage(total);
+    document.write("Percentage is "+Cal);
+   
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
